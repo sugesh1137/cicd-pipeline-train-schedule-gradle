@@ -10,6 +10,7 @@ plugins {
 
 node {
   download = true
+
 }
 
 task build
