@@ -12,7 +12,6 @@ node {
   download = true
 }
 
-
 task build
 
 task zip(type: Zip) {
