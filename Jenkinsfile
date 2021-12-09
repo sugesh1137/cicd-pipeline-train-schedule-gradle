@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Build') {
             steps{
-                echo 'Building..'
+                echo 'Building with webhook..'
                 sh './gradlew build --no-daemon'
                 archiveArtifacts artifacts: 'dist/trainSchedule.zip'
             }
